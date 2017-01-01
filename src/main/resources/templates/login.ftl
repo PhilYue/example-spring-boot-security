@@ -15,7 +15,8 @@
 
 <h1>Log in</h1>
 
-<p>You can use: demo@localhost / demo</p>
+<#--<p>You can use: demo@localhost / demo</p>-->
+<p>Phil's Big Baby</p>
 
 <form role="form" action="/login" method="post">
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
